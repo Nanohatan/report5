@@ -6,6 +6,13 @@ public class LivingThing {
     private int attack;
     private boolean dead;
 
+    /**
+     * コンストラクタ。名前、最大HP、攻撃力を指定する。
+     * @param names　対象の名前
+     * @param hitPoints　対象のHP
+     * @param attacks　対象の攻撃力
+     */
+
     public LivingThing(String names, int hitPoints, int attacks){
         name = names;
         hitPoint = hitPoints;
